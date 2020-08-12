@@ -14,6 +14,7 @@ import { ForLoopComponent } from './for-loop/for-loop.component';
 import { ClickEventComponent } from './click-event/click-event.component';
 import { MouseEventComponent } from './mouse-event/mouse-event.component';
 import { InbuildDirectiveComponent } from './inbuild-directive/inbuild-directive.component';
+import { MyColorDirective } from './directive/my-color.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { InbuildDirectiveComponent } from './inbuild-directive/inbuild-directive
     ForLoopComponent,
     ClickEventComponent,
     MouseEventComponent,
-    InbuildDirectiveComponent
+    InbuildDirectiveComponent,
+    MyColorDirective
   ],
   imports: [
     BrowserModule,
