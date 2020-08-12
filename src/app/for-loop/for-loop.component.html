@@ -1,0 +1,21 @@
+<table border=1 style="border-collapse: collapse; text-align: center;">
+    <thead>
+        <th>Index</th>
+        <th>colorName</th>
+        <th>is First</th>
+        <th>is Last</th>
+        <th>is Odd</th>
+        <th>is Even</th>
+    </thead>
+
+    <tbody>
+        <tr [ngClass]= "{'evenRow' : isEven, 'oddRow' : isOdd}" *ngFor="let colorName of colourList; let idx = index; let isFirst = first; let isLast = last; let isOdd = odd; let isEven = even">
+            <td>{{idx}}</td>
+            <td>{{colorName}}</td>
+            <td>{{isFirst}}</td>
+            <td>{{isLast}}</td>
+            <td>{{isOdd}}</td>
+            <td>{{isEven}}</td>
+        </tr>
+    </tbody>
+</table>

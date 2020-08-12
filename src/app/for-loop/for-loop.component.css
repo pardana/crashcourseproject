@@ -1,0 +1,13 @@
+td{
+    font-size: 25px;
+    padding: 10px;
+    font-style: bold;
+}
+
+.evenRow{
+    background-color: greenyellow;
+}
+
+.oddRow{
+    background-color: orange;
+}

@@ -1,0 +1,15 @@
+<div class="teacher" *ngIf="isTeacher">
+    I'am a Teacher Div
+</div>
+
+<div class="student" *ngIf="!isTeacher">
+    I'am a Student Div
+</div>
+
+<div class="teacher" *ngIf="isTeacher; else studentDiv">
+    I'am another Teacher Div
+</div>
+
+<ng-template class="student" #studentDiv>
+    I'am another Student Div
+</ng-template>

@@ -1,0 +1,27 @@
+ <p>inbuild-directive works!</p>
+
+<h2>Struktur Directive</h2>
+
+<button (click)="isShow = !isShow">
+    {{ isShow ? 'Hide' : 'show' }} Message
+</button>
+
+<div class="structuralDiv">
+
+    <p *ngIf="isShow">
+        This is my testing message for strctural directive
+    </p>
+
+</div>
+
+<br/>
+<h2>Attribute Directive</h2>
+
+<button (click)="changeColor()">
+    Change Color
+</button>
+<div class="attributeDiv" [ngStyle]="{'background-color': bgColor}">
+    <p>
+        This box will change color  
+    </p>
+</div>

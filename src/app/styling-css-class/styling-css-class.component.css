@@ -1,0 +1,22 @@
+.myStaticCssClass{
+    padding: 10px;
+    margin: 10px;
+    color: red;
+    font-size: 30px;
+}
+
+.fancyDiv{
+    padding: 10px;
+    margin: 10px;
+    background-color: greenyellow;
+    color: red;
+    font-size: 30px;
+}
+
+.conditionalDiv5{
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+}

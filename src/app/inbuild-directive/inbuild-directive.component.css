@@ -1,0 +1,15 @@
+.attributeDiv{
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+}
+
+.structuralDiv{
+    padding: 30px;
+    margin: 10px;
+    background-color: green;
+    color: yellow;
+    font-size: 30px;
+}

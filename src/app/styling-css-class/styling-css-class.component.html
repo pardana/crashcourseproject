@@ -1,0 +1,22 @@
+<div [ngClass]=" 'myStaticCssClass' ">
+    Testing div for static ngClass
+</div>
+
+<div [ngClass]=" myCssClassName ">
+    Testing div for dynamic ngClass
+</div>
+
+<div [ngClass]="{ 'conditionalDiv5': num1==5, 'div' : num1 !=5 }">
+    Testing div for conditional ngClass
+</div>
+
+<!--
+    This will not work 
+<div [ngClass]="{ num1==5 ? 'conditionalDiv5' : 'div' }">
+    Another conditional
+</div>
+-->
+
+<div [ngClass]="[ num1==5 ? 'conditionalDiv5' : 'div' ]">
+    Another conditional div
+</div>

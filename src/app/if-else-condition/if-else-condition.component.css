@@ -1,0 +1,18 @@
+div{
+    padding: 50px;
+    margin: 80px;
+    font-size: 50px;
+    border: 10px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.teacher{
+    background-color: orange;
+    color: white;
+}
+
+.student{
+    background-color: yellowgreen;
+}

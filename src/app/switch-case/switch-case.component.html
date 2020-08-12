@@ -1,0 +1,13 @@
+<div [ngSwitch]="currentUser">
+    <div class="teacher" *ngSwitchCase="'teacher'">
+        I'am a Teacher div
+    </div>
+
+    <div class="student" *ngSwitchCase="'student'">
+        I'am a Student div
+    </div>
+
+    <div *ngSwitchDefault>
+        I'am a default
+    </div>
+</div>
